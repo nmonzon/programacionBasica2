@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DadoTest" project="dado" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="ar.edu.unlam.pb2.dado.DadoTest" time="0.03" displayname="DadoTest" uniqueid="[engine:junit-vintage]/[runner:ar.edu.unlam.pb2.dado.DadoTest]">
+    <testcase name="obtengoValorEsperado" classname="ar.edu.unlam.pb2.dado.DadoTest" time="0.03" displayname="obtengoValorEsperado" uniqueid="[engine:junit-vintage]/[runner:ar.edu.unlam.pb2.dado.DadoTest]/[test:obtengoValorEsperado(ar.edu.unlam.pb2.dado.DadoTest)]"/>
+  </testsuite>
+</testrun>

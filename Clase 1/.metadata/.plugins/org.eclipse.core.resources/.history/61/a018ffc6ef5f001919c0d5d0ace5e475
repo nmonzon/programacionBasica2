@@ -1,0 +1,30 @@
+package ar.edu.unlam.pb2.dado; /*accedo a este nivel*/
+import java.util.Random;
+
+public class Dado {
+	
+	private Integer caras;
+	private Integer obtenido;
+	
+	public Dado(){
+		this.caras = caras;
+	}
+
+	public Integer getCaras() {
+		return this.caras;
+	}
+	
+	public Integer lanzar() { 
+		
+		Random numrandom = new Random();
+		obtenido  = numrandom.nextInt(5) + 1;
+		return obtenido;
+	}
+}
+
+/*
+numero al
+azar entre 1
+y la
+cantidad de
+cara numero randomico xx*/

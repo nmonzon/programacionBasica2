@@ -1,0 +1,17 @@
+package ar.edu.unlam.pb2.dado; /*accedo a este nivel*/
+
+public class Dado {
+	private Integer caras; /* double Double */
+
+	public Integer lanzar() { /* Accesibilidad,tipo de dato, */
+		return caras;
+
+	}
+
+}
+
+numero al
+azar entre 1
+y la
+cantidad de
+cara numero randomico

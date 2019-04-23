@@ -1,0 +1,36 @@
+package ar.edu.unlam.pb2.dado;
+
+import org.junit.Test;
+import org.junit.Assert;
+import java.util.Random;
+
+public class DadoTest {
+	
+	private Integer min = 1;
+	private Integer max = 6;
+	private Integer valoresperado = 4;
+	
+	@Test
+	public void  testQueAlLanzarMiDadoObtengoValorEsperado() {
+		
+		Dado midado = new Dado();
+	
+		midado.lanzar();
+		
+		
+		System.out.println(midado.lanzar());
+		//1. Preparacion lo que haria Dado midado = new Dado(6 )
+		//Definir limites como Integer min = 1;
+		
+		//2. Ejecucion correr el comportamiento que quiero evaluar, integer valor esperado= midado.lanzar
+		//la cara que dio, me tiene que devolver un numero
+		//integer miCaraDado = miDado.tirar()
+		
+		//3. Contrastacion tomar el valor obtenido y comprar con valor esperado , comprobar
+		// Assert? assertTrue?
+		
+		//Testear con JUnit
+	}
+
+	
+}
